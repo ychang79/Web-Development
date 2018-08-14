@@ -1,0 +1,20 @@
+img{
+	width: 30%; /*each img takes 30% of body = 90% used*/
+
+	margin: 1.66%; /*10%/6sides =1.66%*/
+
+/*float-specifies that an element should be placed along the left or right side of its container*/
+/*allowing text and inline elements to wrap around it.*/
+	float: left;
+}
+
+h1{
+	font-family: Gaegu;
+	
+	text-transform: uppercase;
+
+	margin: 1.66%;
+	border-bottom: 5px solid gray;
+	width: 30%;
+	padding-bottom: 20px;
+}

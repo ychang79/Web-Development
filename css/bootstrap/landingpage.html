@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="C:\Users\ychan_000\Documents\sublimetxt\css\bootstrap\bootstrap-3.3.7-dist\css\bootstrap.css">
+<link href="https://fonts.googleapis.com/css?family=Gaegu:400,700&amp;subset=korean" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<style type="text/css">
+
+	#content{
+		text-align: center;
+		padding-top: 25%;
+	}
+
+  /*giv background img from url*/
+	body{
+		background: url(https://images.unsplash.com/photo-1532566818493-3257d9eca941?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=669d307d618792dc8be69b32dfe8b2c1&auto=format&fit=crop&w=1353&q=80);
+		background-size: cover;
+		background-position: center;
+
+   /*change font*/
+		font-family: gaegu;
+	}
+	h1, h3{
+		font-weight: 700; /*boldness*/
+		font-size: 5em;
+		color: white;
+
+		text-shadow: 0px 5px 5px red,
+					 5px 5px 5px orange;
+	}
+
+	.btn-default{
+		color: blue;
+		font-weight: 700;
+	}
+
+	/*to make 1 background img*/
+	html{
+		height: 100%;
+	}
+
+	/*make hr shorter*/
+	hr{
+		width: 400px;
+	}
+</style>
+
+</head>
+<body>
+
+	<nav class="navbar navbar-default">
+		<div class="container">
+
+			<div class="navbar-header">
+						<!-- hamburger -->
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#young-hamburger-demo" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				<a href="#" class="navbar-brand">purrrfect match</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="young-hamburger-demo">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">abbout</a>
+					</li>
+					<li>
+						<a href="#">contactt</a>
+					</li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#">sign up <i class="fas fa-user-plus"></i></a>
+					</li>
+					<li>
+						<a href="#">login <i class="fas fa-user"></i></a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<div id="content">   <!-- customize align(center) -->
+				<h1>purrrfect match</h1>
+				<h3>the only human feline date app</h3>
+				<hr>
+				<button class="btn btn-default btn-lg"><i class="fas fa-paw"></i> get started</button>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

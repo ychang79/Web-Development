@@ -1,0 +1,44 @@
+/*		selector{
+			property: value;
+		}
+*/
+	
+h1{
+	color: #FF0000; /* #rrggbb */
+
+/*	border-color: purple;
+	border-width: 8px;
+	border-style: dashed;*/
+	background: seagreen;
+	border: 5px dashed pink; /*order doesn't matter*/
+}
+
+h4{
+	color: rgb(0, 255, 0); /*colour range 0-255*/
+	background: rgba(200, 0, 0, 0.2);
+}
+
+h2{
+	color: rgba(0, 0, 255, 0.2); /*rgbalpha(transparency) range 0.0-1.0*/
+}
+
+/*select all li*/
+li{
+	color: rgb(0, 0, 254,);
+}
+
+div{
+	background: royalblue;
+}
+
+p{
+	color: tomato;
+}
+
+body{
+	background: grey;
+/*	background: url(https://images.homedepot-static.com/productImages/1aaaaceb-c6e9-42b6-9a23-7f54df432414/svn/stencil1-stencils-s1-pa-61-64_1000.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;*/
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>specificity</title>
+	<style type="text/css">
+	
+	#lgd{
+		color: purple;
+	}
+
+	.gd{
+		color:grey;
+	}
+
+	li{
+		color: orange;
+	}
+
+	ul{
+		color: blue;
+	}
+
+	body{
+		color: red;
+	}		
+
+	</style>
+</head>
+<body>
+
+<p>heloool!</p>
+
+<ul>
+	<li>john</li>
+	<li class="gd">paul</li>
+	<li id="lgd" class="gd">george</li>
+	<li>ringo</li>
+</ul>
+
+</body>
+</html>
+
+<!-- 
+most specificity:
+
+1.ID selector:
+#hello{
+	
+}
+
+2.class,attribute,pseudo-class:
+.hello{
+	
+}
+
+3.type selector:
+li a{
+	
+}
+
+li{
+	
+} 
+-->

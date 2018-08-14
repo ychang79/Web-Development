@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid System</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <style type="text/css">
+    .pink{
+      background: pink;
+      border: solid 2px purple;
+    }
+
+    .dlue{
+      background: lightblue;
+      border:solid 2px blue;
+      height: 30px;
+    }
+
+  </style>
+
+</head>
+<body>
+
+<!-- =====================================-->
+<!--             OBJECTIVES               -->
+<!-- 1. Understand Purpose of Grid System-structures and layout of entire application. scales up to 12 columns-->
+<!-- 2. Understand the 4 different sizes(lg md sdlue)  -->
+<!-- 3. Write Nested Grids                -->
+<!-- ==================================== -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2 col-md-4 pink">column large 2</div>
+    <div class="col-lg-8 col-md-4 pink">COLUMN LARGE 8</div>
+    <div class="col-lg-2 col-md-4 pink">column large 2</div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4 col-xs-2 pink">1</div>
+    <div class="col-lg-4 col-xs-2 pink">2</div>
+    <div class="col-lg-4 col-xs-2 pink">3</div>
+  </div>
+
+    <div class="row">
+
+    <div class="col-md-3 col-sm-6 pink">
+      <div class="row">
+        <div class="col-lg-6 dlue">this is nested1</div>
+        <div class="col-lg-6 dlue">this is nested2</div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 pink">tour date</div>
+    <div class="col-md-3 col-sm-6 pink">tour date</div>
+    <div class="col-md-3 col-sm-6 pink">tour date</div>
+  </div>
+
+</div>
+
+</body>
+</html>
+
+<!-- 
+col-xs- when grid is xtra small then take specified amount of column
+col-sm- small
+col-md- midium
+col-lg- -->

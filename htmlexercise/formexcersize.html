@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formexc</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+	<form>
+		<label for="fn">firstname:</label>
+		<input id="fn" type="text" placeholder="john" name="firs" required="">
+		<label for="ln">last name:</label>
+		<input id="ln" type="text" placeholder="smith" name="las" required="">
+
+		<p></p>
+
+		<label for="m1">male</label>
+		<input in="m1" type="radio" name="gt" value="mal">
+		<label for="f2">female</label>
+		<input in="f2" type="radio" name="gt" value="fem">
+		<label for="o3">other</label>
+		<input in="o3" type="radio" name="gt" value="oth">
+
+		<p></p>
+		<label for="em">email:</label>
+		<input id="em" type="email" placeholder="ur email" name="ema" required="">
+		<label for="pw">password:</label>
+		<input id="pw" type="password" name="psa" pattern=".{5,10}" required title=" 5~~10char">
+
+		<p>
+			Birthday:
+			<select name="month">
+				<option>month</option>
+				<option>jan</option>
+				<option>feb</option>
+			</select>
+			
+			<select name="day">
+				<option>day</option>
+				<option>5</option>
+				<option>6</option>
+			</select>
+
+			<select name="year">
+				<option>year</option>
+				<option>1992</option>
+				<option>1993</option>
+			</select>
+		</p>
+
+		<p>
+			<label>
+				i agree term
+				<input type="checkbox" name="agr">
+			</label>
+		</p>
+
+		<button>submit</button>
+	</form>
+
+</body>
+</html>

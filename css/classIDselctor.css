@@ -1,0 +1,23 @@
+body{
+	background: orange;
+}
+
+li{
+	border: 3px red solid;
+}
+
+
+/*ID selector*/
+
+#groc{
+	background: seagreen;
+}
+
+#stud{
+	background: yellow;
+}
+
+/*class selctor*/
+.autoz{
+	text-decoration: line-through;
+}

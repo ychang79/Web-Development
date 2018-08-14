@@ -1,0 +1,19 @@
+p {
+
+/*Content - Width and Height*/
+width: 160px;  /* (px or %) of width of body */
+/*height: 30px;*/
+
+/*Border*/
+border: 2px solid blue;
+
+/*Padding  --  space b/w content and border*/
+/*padding: 10px;*/ /*on all 4 sides*/
+padding-left: 20px; /*on left side only*/
+
+/*Margin  -- outside border*/
+/*margin: 100px;*/ /*on all 4 sides*/
+/*margin-top: 300px;*/
+/*margin: 20px 40px 500px 100px; */ /*top right bottom left*/
+margin: 0 auto 0 auto; /*center*/
+}
