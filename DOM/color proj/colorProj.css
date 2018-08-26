@@ -1,0 +1,82 @@
+body{
+	background-color: #232323;
+	margin: 0; /*remove spaces*/
+}
+
+h1{
+	font-family: Kosugi Maru;
+	text-transform: uppercase;
+	color: white;
+	text-align: center; /*content centered*/
+	background-color: teal;
+	margin: 0; /*remove spaces*/
+	padding: 50px;
+}
+
+button{
+	border: none;
+	background: none;
+	color: teal;
+
+	text-transform: uppercase;
+	font-family: Kosugi Maru;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: inherit;
+
+	transition: all 2.0s; /*all elements takes 2seconds fades slowly*/
+	border-radius: 0px 0px 10px 10px;
+	outline: none; /*remove annoying blue outline when clicked*/
+
+	margin: 0;
+	height: 100%
+}
+
+.square{
+	width: 25%;
+	border: 2px dimgray solid;
+
+	padding-top: 25%;
+	float: left;
+	margin: 3.5%;
+
+	border-radius: 100px; /*shape the corners of the borders*/
+	transition: all 2.0s;
+
+}
+
+.selected{
+	background-color: teal;
+	color: white;
+}
+
+#container{
+	padding-top: 150px;
+	max-width: 33.33%;
+	margin: 0 auto;
+}
+
+#stripe{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+	padding-bottom: 5px
+}
+
+#msg{
+	/*make span appear*/
+	display: inline-block;
+	width: 20%;
+}
+
+/*hover effect*/
+button:hover{
+	background-color: teal;
+	color: white;
+}
+
+.square:not(:hover){
+	box-shadow: 0px 0px 50px gray;
+	opacity: 0.4;
+}
